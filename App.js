@@ -7,6 +7,7 @@ import { Todo } from './src/Todo'
 export default function App() {
   const [todos, setTodos] = useState([])
 
+
   const addTodo = title => {
     // const newTodo = {
     //   id: Date.now().toString(),
